@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+body {
+  background-color: #fff;
+  padding: 5rem 1rem;
+}
+
+@media (min-width: 640px) {
+  body {
+    background-color: aliceblue;
+  }
+}
+
+.container {
+  box-shadow: -1px 1px 39px 4px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 39px 4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 39px 4px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+  max-width: 500px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-inline: auto;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.container .hyperlink-to-boat-blog {
+  display: flex;
+  background-color: #96e2bf;
+  color: #08750a;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-weight: semi-bold;
+  margin-right: auto;
+  margin-left: auto;
+  text-wrap: nowrap;
+  transition: transform 0.3s ease;
+}
+
+.container .hyperlink-to-lighthouse-blog {
+  display: flex;
+  background-color: rgb(142, 191, 223);
+  color: #205fc4;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-weight: semi-bold;
+  margin-right: auto;
+  margin-left: auto;
+  text-wrap: nowrap;
+  transition: transform 0.3s ease;
+}
+
+.container .hyperlink-to-boat-blog:hover {
+  transform: scale(1.05);
+}
+
+.container .hyperlink-to-lighthouse-blog:hover {
+  transform: scale(1.05);
+}
+
+.container h2 {
+  color: #434548;
+  line-height: 2;
+  text-align: center;
+  font-weight: 600 lighter;
+}
+
+.first-paragraph {
+  color: rgb(80, 80, 80);
+  text-align: center;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.second-paragraph {
+  text-align: center;
+  border-top: solid 2px #43454883;
+}
+
+.container .dji-button {
+  background-color: rgb(204, 204, 204);
+  color: rgb(132, 132, 132);
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Parallax and Cursor */
