@@ -136,5 +136,5 @@ body {
 
 .djimini3bluebg {
   max-width: 100%;
-  background-size: contain;
+  object-fit: cover;
 }
