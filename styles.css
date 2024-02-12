@@ -140,3 +140,10 @@ body {
   margin: 0 auto;
   display: block;
 }
+
+.container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
