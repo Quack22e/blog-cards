@@ -133,3 +133,7 @@ body {
 .container .hyperlink-to-drone-blog:hover {
   transform: scale(1.05)
 }
+
+.djimini3bluebg {
+  max-width: 100%;
+}
